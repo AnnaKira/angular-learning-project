@@ -61,7 +61,7 @@ Every chapter follows the same rhythm:
 
 | Path | Purpose | Introduced in |
 |---|---|---|
-| `/Users/igorokhov/repos/iorgvi/angular-learning-project/` | Project root (currently empty) | Chapter 1 |
+| `/Users/annagorohova/repos/angular-learning-project/` | Project root (currently empty) | Chapter 1 |
 | `package.json`, `angular.json`, `tsconfig.json` | Project config | Chapter 1 |
 | `src/main.ts`, `src/app/app.config.ts` | Bootstrap | Chapter 1 |
 | `src/app/app.component.{ts,html,css}` | Root component | Chapter 1 |
@@ -84,21 +84,21 @@ Every chapter follows the same rhythm:
 > Goal: have a working development environment and understand what each tool does.
 
 **Concepts to learn**
-- What Node.js is (and isn't) — a JS runtime outside the browser.
-- npm: package manager, `package.json`, dependencies vs devDependencies, lockfile.
-- Terminal basics: `cd`, `ls`, `mkdir`, `rm`, `pwd`, path conventions, environment variables (intro).
-- Git basics: `init`, `add`, `commit`, `status`, `log`, `diff`, `.gitignore`.
-- What an IDE does. VS Code essentials and useful Angular extensions.
-- What a CLI is and why frameworks ship one (`ng`, `npm`, `git`).
+[x]- What Node.js is (and isn't) — a JS runtime outside the browser.
+[x]- npm: package manager, `package.json`, dependencies vs devDependencies, lockfile.
+[x]- Terminal basics: `cd`, `ls`, `mkdir`, `rm`, `pwd`, path conventions, environment variables (intro).
+[x]- Git basics: `init`, `add`, `commit`, `status`, `log`, `diff`, `.gitignore`.
+[x]- What an IDE does. VS Code essentials and useful Angular extensions.
+[x]- What a CLI is and why frameworks ship one (`ng`, `npm`, `git`).
 
 **Hands-on Tasks**
-- [ ] Install Node.js LTS (via `nvm` recommended) and verify with `node --version` and `npm --version`.
-- [ ] Install Angular CLI globally: `npm install -g @angular/cli` and verify `ng version`.
-- [ ] Install VS Code + extensions: Angular Language Service, ESLint, Prettier, EditorConfig.
-- [ ] Practice 10 terminal commands until they feel natural: `cd`, `ls -la`, `pwd`, `mkdir`, `touch`, `rm`, `cp`, `mv`, `cat`, `grep`.
-- [ ] `git init` in the project folder, configure name/email, make a dummy initial commit, learn `git status`/`git log`/`git diff`.
-- [ ] Create a GitHub account (if needed), set up SSH key, push the empty repo.
-- [ ] Copy this plan file to the project as `ROADMAP.md` so it lives in the repo.
+[x]- [ ] Install Node.js LTS (via `nvm` recommended) and verify with `node --version` and `npm --version`.
+[x]- [ ] Install Angular CLI globally: `npm install -g @angular/cli` and verify `ng version`.
+[x]- [ ] Install VS Code + extensions: Angular Language Service, ESLint, Prettier, EditorConfig.
+[x]- [ ] Practice 10 terminal commands until they feel natural: `cd`, `ls -la`, `pwd`, `mkdir`, `touch`, `rm`, `cp`, `mv`, `cat`, `grep`.
+[x]- [ ] `git init` in the project folder, configure name/email, make a dummy initial commit, learn `git status`/`git log`/`git diff`.
+[x]- [ ] Create a GitHub account (if needed), set up SSH key, push the empty repo.
+[x]- [ ] Copy this plan file to the project as `ROADMAP.md` so it lives in the repo.
 
 **Exam Questions (answer in writing)**
 1. What's the difference between Node.js and a browser's JS engine?
@@ -108,9 +108,9 @@ Every chapter follows the same rhythm:
 5. What is a CLI, and what does the Angular CLI specifically provide?
 
 **Code Review Checklist**
-- [ ] `node --version` returns 20+ or 22+.
-- [ ] `ng version` shows Angular 18+ (or whatever is current LTS).
-- [ ] `git log` shows an initial commit.
+[x]- [ ] `node --version` returns 20+ or 22+.
+[x]- [ ] `ng version` shows Angular 18+ (or whatever is current LTS).
+[x][x]- [ ] `git log` shows an initial commit.
 - [ ] `.gitignore` excludes `node_modules` and `.DS_Store`.
 
 ---

@@ -132,6 +132,6 @@ Just ask — no special syntax. Common patterns:
 | Roadmap | [`ROADMAP.md`](./ROADMAP.md) |
 | Session log | [`JOURNAL.md`](./JOURNAL.md) |
 | User's notes | [`NOTES.md`](./NOTES.md) |
-| Project root | `/Users/igorokhov/repos/iorgvi/angular-learning-project/` |
+| Project root | `/Users/annagorohova/repos/angular-learning-project/` |
 | Angular app folder | `finance-tracker/` (created in Chapter 1; doesn't exist yet) |
 | Current chapter | Check `ROADMAP.md` — the first chapter with unchecked `[ ]` tasks |
