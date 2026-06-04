@@ -129,14 +129,14 @@ Every chapter follows the same rhythm:
 - Change detection at a 1000-ft level (just enough to not be confused).
 
 **Hands-on Tasks**
-- [ ] `ng new finance-tracker --standalone --style=css --routing` inside the working directory.
-- [ ] Run `ng serve` and open the app in the browser.
-- [ ] Read every file the CLI generated; write a 1-sentence description of each in a `NOTES.md` (for yourself).
-- [ ] Replace the default `app.component.html` with a custom welcome screen for the finance tracker.
-- [ ] Add a class property `appTitle = 'Finance Tracker'` and bind it via interpolation.
-- [ ] Generate a child component: `ng g c features/dashboard/dashboard`. Render it inside `app.component.html`.
-- [ ] Set up ESLint + Prettier (`ng add @angular-eslint/schematics`, then install Prettier).
-- [ ] Commit: "chapter 1: scaffold app and first component".
+✅- [ ] `ng new finance-tracker --standalone --style=css --routing` inside the working directory.
+✅- [ ] Run `ng serve` and open the app in the browser.
+✅- [ ] Read every file the CLI generated; write a 1-sentence description of each in a `NOTES.md` (for yourself).
+✅- [ ] Replace the default `app.component.html` with a custom welcome screen for the finance tracker.
+✅- [ ] Add a class property `appTitle = 'Finance Tracker'` and bind it via interpolation.
+✅- [ ] Generate a child component: `ng g c features/dashboard/dashboard`. Render it inside `app.component.html`.
+✅- [ ] Set up ESLint + Prettier (`ng add @angular-eslint/schematics`, then install Prettier).
+✅- [ ] Commit: "chapter 1: scaffold app and first component".
 
 **Exam Questions**
 1. What is a standalone component? How does it differ from the old NgModule approach?
